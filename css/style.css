@@ -57,6 +57,7 @@ nav a:hover {
   width: 120px;
   float: left;
   margin: 0 20px 20px 0;
+  box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .principal {
@@ -86,6 +87,7 @@ nav a:hover {
 .mapa-conteudo {
   width: 940px;
   margin: 0 auto;
+  box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .mapa p {
@@ -251,4 +253,35 @@ footer {
   color: #ffffff;
   font-size: 13px;
   margin: 20px;
+}
+
+@media screen and (max-width: 915px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+    margin: 1.5% 1.5%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios,
+  .imagem-beneficios,
+  .produtos,
+  .produtos li,
+  li img,
+  form,
+  .enviar,
+  table {
+    width: 97%;
+    margin: 1.5% 1.5%;
+  }
 }
